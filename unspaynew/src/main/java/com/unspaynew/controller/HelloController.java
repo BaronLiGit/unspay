@@ -13,6 +13,9 @@ public class HelloController {
 	@Value("#{configProperties['accountId']}")
 	private String accountId;
 	
+	@Value("${first}")
+	private String first;
+	
 	@Value("${key}")
 	private String key;
 
