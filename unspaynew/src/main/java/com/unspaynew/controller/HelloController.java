@@ -15,6 +15,8 @@ public class HelloController {
 	
 	@Value("${first}")
 	private String first;
+	@Value("${sec}")
+	private String sec;
 	
 	@Value("${key}")
 	private String key;
