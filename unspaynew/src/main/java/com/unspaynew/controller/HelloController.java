@@ -13,11 +13,6 @@ public class HelloController {
 	@Value("#{configProperties['accountId']}")
 	private String accountId;
 	
-	@Value("${first}")
-	private String first;
-	@Value("${sec}")
-	private String sec;
-	
 	@Value("${key}")
 	private String key;
 
