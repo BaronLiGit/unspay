@@ -139,10 +139,10 @@ public class delegatePay {
 		}
 		if (responseData.getMac().equals(mac)){
 			log.info("实时代付结果通知-验签成功");
-			return "验证签名成功success";
+			return "{\"result_code\":\"000000\"}";
 		} else {
 			log.info("实时代付结果通知-验签失败");
-			return "验证签名失败failed";
+			return "{\"result_code\":\"000000\"}";
 		}
 	}
 	@RequestMapping(value="/guide")
